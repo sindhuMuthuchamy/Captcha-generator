@@ -41,7 +41,6 @@ h1{
     font-weight: 400;
     font-size: large;
 }
-
 #captchaInput{
     font-size: medium;
     padding: 10px;
@@ -50,11 +49,9 @@ h1{
     border: 1px solid silver;
     margin: 1rem;
 }
-
 #captchaInput:focus{
     outline: none;
 }
-
 button{
     margin: 1rem 0 0 5rem;
     width: 70px;
