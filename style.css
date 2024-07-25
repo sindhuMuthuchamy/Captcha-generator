@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vh;
+    font-style: normal;
+    background-color: rgb(15,15,27);
+    /* text-align: center; */
+}
+.container{
+    display: flex;
+    background-color: #ddd;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border: solid 1px gray;
+    width: 250px;
+    padding: 1rem;
+    border-radius: 20px;
+    /* box-shadow: sandybrown; */
+}
+h1{
+    font-size: medium;
+}
+.captcha{
+    color: rgb(85, 84, 84);
+    margin: 1rem;
+    padding-top: 5px;
+    position: relative;
+    border: 2px solid silver;
+    border-radius: 5px;
+    text-align: center;
+    background-color:silver;
+    height: 30px;
+    width: 80%;
+    font-weight: 400;
+    font-size: large;
+}
+
+#captchaInput{
+    font-size: medium;
+    padding: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    margin: 1rem;
+}
+
+#captchaInput:focus{
+    outline: none;
+}
+
+button{
+    margin: 1rem 0 0 5rem;
+    width: 70px;
+    padding: 10px;
+    background-color: rgb(0, 0, 255);
+    border: none;
+    font-size: small;
+    border-radius: 10px;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
